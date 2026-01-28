@@ -1,4 +1,4 @@
-# Trading Tools – Python Launcher
+# Python Launcher PRO
 **Made for speed, clarity and zero‑friction setup.**
 
 Launcher **Windows (.bat)** per progetti Python orientati ad ogni uso ..dal trading, all’analisi dati e all’automazione.
