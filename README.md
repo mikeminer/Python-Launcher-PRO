@@ -1,6 +1,7 @@
 # Trading Tools – Python Launcher
+**Made for speed, clarity and zero‑friction setup.**
 
-Launcher **Windows (.bat)** per progetti Python orientati al trading, all’analisi dati e all’automazione.
+Launcher **Windows (.bat)** per progetti Python orientati ad ogni uso ..dal trading, all’analisi dati e all’automazione.
 Pensato per essere **robusto, semplice da usare e adatto anche a chi non ha dimestichezza con Python**.
 
 ---
@@ -30,10 +31,10 @@ Tutte le operazioni di gestione sono raccolte in un menu dedicato:
 
 ## 🚀 Punto di forza: Auto‑Detect Dipendenze
 
-La funzionalità **Auto‑Detect** è il vero cuore del launcher.
+La funzionalità **Auto‑Detect** è il vero cuore del launcher e lo rende PRO.
 
 ### Cosa fa
-- Analizza **tutti i file `.py`** del progetto
+- Analizza **tutti i file `.py`** presenti dentro la cartella del laucher
 - Usa il **parser AST ufficiale di Python** (non regex fragili)
 - Individua automaticamente:
   - `import x`
@@ -42,8 +43,8 @@ La funzionalità **Auto‑Detect** è il vero cuore del launcher.
   - Standard Library (`os`, `sys`, `pathlib`, `ast`, ecc.)
   - Moduli built‑in
   - `__future__`
-- Genera un file `requirements_auto.txt`
-- Installa tutte le dipendenze con un solo comando `pip`
+- Genera da solo un file `requirements_auto.txt`
+- Installa dunque subito tutte le dipendenze con un solo comando `pip`
 
 ### Perché è superiore ai metodi classici
 - ❌ Nessun errore da import multilinea
@@ -60,22 +61,13 @@ In pratica:
 ## 🐍 Gestione Python
 - Supporta più versioni installate
 - Salva la versione predefinita in `python_default.cmd`
-- Installa automaticamente **Python 3.11** su Windows con:
+- Installa automaticamente **Python 3.11** su Windows con il comandi I dalle impostazioni :
   ```
   winget install --id Python.Python.3.11 -e
   ```
 
 ---
 
-## 📦 Struttura consigliata
-```
-project/
-│─ launcher.bat
-│─ script1.py
-│─ script2.py
-│─ requirements.txt        (opzionale)
-│─ requirements_auto.txt   (generato automaticamente)
-```
 
 ---
 
@@ -102,4 +94,4 @@ Modificabile, estendibile, adattabile a qualsiasi progetto Python.
 
 ---
 
-**Made for speed, clarity and zero‑friction setup.**
+
