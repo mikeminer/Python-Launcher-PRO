@@ -2,6 +2,9 @@
 
 # Python Launcher PRO
 
+<img width="775" height="422" alt="image" src="https://github.com/user-attachments/assets/a379081e-7b1b-438d-aefa-a7ccfcee5b59" />
+
+
 **Made for speed, clarity and zero-friction setup.**
 
 **Python Launcher PRO** è un launcher **Windows (.bat)** pensato per rendere l’utilizzo di applicazioni e strumenti scritti in **Python** semplice, affidabile e immediato, **indipendentemente dal livello tecnico dell’utente**.
